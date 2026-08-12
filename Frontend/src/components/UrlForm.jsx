@@ -113,7 +113,7 @@ function UrlForm() {
           <div className="flex items-center space-x-2">
             <input
               type="text"
-              value={shortUrl}
+              value={shortUrl.split('/').pop()}
               readOnly
               className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded text-blue-600 text-sm font-mono"
             />
